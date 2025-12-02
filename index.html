@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quan ly Nguoi Dung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quan ly Nguoi Dung</h1>
+    <form id="formNhapNguoiDung">
+        <label for="tenNguoiDung">Ten Nguoi Dung</label><br>
+        <input type="text" id="tenNguoiDung" placeholder="Nhap ten nguoi dung"><br><br>
+        <label for="emailNguoiDung">Email</label><br>
+        <input type="email" id="emailNguoiDung" placeholder="Nhap email nguoi dung"><br><br>
+        <button type="button" id="themNguoiDung">Them Nguoi Dung</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Ten</th>
+                <th>Email</th>
+                <th>Hanh Dong</th>
+            </tr>
+        </thead>
+        <tbody id="bangNguoiDung">
+        </tbody>
+    </table>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
